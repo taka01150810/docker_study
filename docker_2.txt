@@ -52,3 +52,10 @@ https://gyazo.com/c25eacb683352901b3887353ab30ec87
 
 DockerイメージからDockerコンテナに行くときはrun
 https://gyazo.com/59d09ee648c7ab81c607771b8a51b80a
+
+Dockerイメージはレイヤー構造になっている
+レイヤーは一つ一つがLinuxコマンド(yum install httpdなど)
+一番下(ベースレイヤー)はLinuxOS(CentOSやUbuntu)
+そして必ずコンテナの前段階はDockerイメージ
+イメージ図
+https://gyazo.com/771b7564101fccab6805b110f5a1d0bb
