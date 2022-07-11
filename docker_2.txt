@@ -41,3 +41,14 @@ Dockerの最大のメリット
 
 Dockerfileはサーバーで実行するコードを定義する
 ->設定など自動で行う
+
+DockerfileとDockerイメージの関係
+Dockerコンテナはパッケージ化された箱
+Dockerイメージは設計図
+DockerfileはDockerイメージを言語化したファイル
+
+DockerfileからDockerイメージに行くときはbuild
+https://gyazo.com/c25eacb683352901b3887353ab30ec87
+
+DockerイメージからDockerコンテナに行くときはrun
+https://gyazo.com/59d09ee648c7ab81c607771b8a51b80a
